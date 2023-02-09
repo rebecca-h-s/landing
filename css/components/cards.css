@@ -1,0 +1,63 @@
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: xx-large;
+}
+
+.banner p {
+  color: white;
+  font-size: medium;
+  opacity: 1;
+}
+
+.banner {
+  color: white;
+  font-size: medium;
+  opacity: 0.8;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #508bd8;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+  .card {
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230 230 230);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(230,230,230);
+  }
+
+.card img {
+  height: 300px;
+  width: 100%;
+}
+
+.card h4, p {
+  justify-content: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #ba6a6a;
+  font-size: 35px;
+}
